@@ -1,0 +1,31 @@
+# Credentials -- never commit
+.env
+.env.*
+!.env.development
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Reports
+reports/
+*.html
+*.csv
+*.html
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
